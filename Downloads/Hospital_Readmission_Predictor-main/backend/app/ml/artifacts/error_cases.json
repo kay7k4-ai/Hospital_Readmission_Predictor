@@ -1,0 +1,1142 @@
+[
+  {
+    "case_id": 133742,
+    "error_type": "False Positive",
+    "actual_outcome": 0,
+    "predicted_prob": 0.1988,
+    "age": "11-20",
+    "severity": "Moderate",
+    "department": "gynecology",
+    "previous_encounters": 3,
+    "length_of_stay_days": 18.6,
+    "top_factors": [
+      {
+        "feature": "deposit_per_day",
+        "shap_value": 0.06549999862909317,
+        "direction": "increases_risk"
+      },
+      {
+        "feature": "severity_num",
+        "shap_value": 0.041600000113248825,
+        "direction": "increases_risk"
+      },
+      {
+        "feature": "days_since_previous_discharge",
+        "shap_value": -0.04019999876618385,
+        "direction": "decreases_risk"
+      },
+      {
+        "feature": "Admission_Deposit",
+        "shap_value": 0.03530000150203705,
+        "direction": "increases_risk"
+      },
+      {
+        "feature": "Type of Admission_Urgent",
+        "shap_value": 0.028300000354647636,
+        "direction": "increases_risk"
+      }
+    ]
+  },
+  {
+    "case_id": 191650,
+    "error_type": "False Positive",
+    "actual_outcome": 0,
+    "predicted_prob": 0.1969,
+    "age": "41-50",
+    "severity": "Moderate",
+    "department": "gynecology",
+    "previous_encounters": 1,
+    "length_of_stay_days": 17.1,
+    "top_factors": [
+      {
+        "feature": "severity_num",
+        "shap_value": 0.062300000339746475,
+        "direction": "increases_risk"
+      },
+      {
+        "feature": "days_since_previous_discharge",
+        "shap_value": -0.05469999834895134,
+        "direction": "decreases_risk"
+      },
+      {
+        "feature": "Admission_Deposit",
+        "shap_value": 0.031599998474121094,
+        "direction": "increases_risk"
+      },
+      {
+        "feature": "Type of Admission_Urgent",
+        "shap_value": 0.02979999966919422,
+        "direction": "increases_risk"
+      },
+      {
+        "feature": "previous_max_los",
+        "shap_value": 0.02979999966919422,
+        "direction": "increases_risk"
+      }
+    ]
+  },
+  {
+    "case_id": 253905,
+    "error_type": "False Positive",
+    "actual_outcome": 0,
+    "predicted_prob": 0.2012,
+    "age": "31-40",
+    "severity": "Moderate",
+    "department": "gynecology",
+    "previous_encounters": 3,
+    "length_of_stay_days": 30.8,
+    "top_factors": [
+      {
+        "feature": "severity_num",
+        "shap_value": 0.05400000140070915,
+        "direction": "increases_risk"
+      },
+      {
+        "feature": "Admission_Deposit",
+        "shap_value": 0.038600001484155655,
+        "direction": "increases_risk"
+      },
+      {
+        "feature": "encounter_number",
+        "shap_value": -0.03620000183582306,
+        "direction": "decreases_risk"
+      },
+      {
+        "feature": "Type of Admission_Urgent",
+        "shap_value": 0.031700000166893005,
+        "direction": "increases_risk"
+      },
+      {
+        "feature": "previous_365d_encounters",
+        "shap_value": -0.021900000050663948,
+        "direction": "decreases_risk"
+      }
+    ]
+  },
+  {
+    "case_id": 188288,
+    "error_type": "False Positive",
+    "actual_outcome": 0,
+    "predicted_prob": 0.2176,
+    "age": "21-30",
+    "severity": "Moderate",
+    "department": "gynecology",
+    "previous_encounters": 2,
+    "length_of_stay_days": 32.7,
+    "top_factors": [
+      {
+        "feature": "Hospital_type_code_e",
+        "shap_value": 0.0575999990105629,
+        "direction": "increases_risk"
+      },
+      {
+        "feature": "severity_num",
+        "shap_value": 0.05310000106692314,
+        "direction": "increases_risk"
+      },
+      {
+        "feature": "Admission_Deposit",
+        "shap_value": 0.0406000018119812,
+        "direction": "increases_risk"
+      },
+      {
+        "feature": "Type of Admission_Urgent",
+        "shap_value": 0.03060000017285347,
+        "direction": "increases_risk"
+      },
+      {
+        "feature": "age_num",
+        "shap_value": 0.030500000342726707,
+        "direction": "increases_risk"
+      }
+    ]
+  },
+  {
+    "case_id": 22770,
+    "error_type": "False Positive",
+    "actual_outcome": 0,
+    "predicted_prob": 0.2039,
+    "age": "41-50",
+    "severity": "Moderate",
+    "department": "gynecology",
+    "previous_encounters": 1,
+    "length_of_stay_days": 40.7,
+    "top_factors": [
+      {
+        "feature": "previous_max_los",
+        "shap_value": 0.08299999684095383,
+        "direction": "increases_risk"
+      },
+      {
+        "feature": "previous_hospital_days",
+        "shap_value": -0.0778999999165535,
+        "direction": "decreases_risk"
+      },
+      {
+        "feature": "Admission_Deposit",
+        "shap_value": 0.06260000169277191,
+        "direction": "increases_risk"
+      },
+      {
+        "feature": "severity_num",
+        "shap_value": 0.05900000035762787,
+        "direction": "increases_risk"
+      },
+      {
+        "feature": "Type of Admission_Urgent",
+        "shap_value": 0.03280000016093254,
+        "direction": "increases_risk"
+      }
+    ]
+  },
+  {
+    "case_id": 96214,
+    "error_type": "False Positive",
+    "actual_outcome": 0,
+    "predicted_prob": 0.1997,
+    "age": "51-60",
+    "severity": "Moderate",
+    "department": "gynecology",
+    "previous_encounters": 1,
+    "length_of_stay_days": 22.7,
+    "top_factors": [
+      {
+        "feature": "severity_num",
+        "shap_value": 0.04820000007748604,
+        "direction": "increases_risk"
+      },
+      {
+        "feature": "Admission_Deposit",
+        "shap_value": 0.045099999755620956,
+        "direction": "increases_risk"
+      },
+      {
+        "feature": "days_since_previous_discharge",
+        "shap_value": -0.03290000185370445,
+        "direction": "decreases_risk"
+      },
+      {
+        "feature": "Type of Admission_Urgent",
+        "shap_value": 0.03229999914765358,
+        "direction": "increases_risk"
+      },
+      {
+        "feature": "age_num",
+        "shap_value": -0.027899999171495438,
+        "direction": "decreases_risk"
+      }
+    ]
+  },
+  {
+    "case_id": 137630,
+    "error_type": "False Positive",
+    "actual_outcome": 0,
+    "predicted_prob": 0.2007,
+    "age": "21-30",
+    "severity": "Moderate",
+    "department": "anesthesia",
+    "previous_encounters": 2,
+    "length_of_stay_days": 74.0,
+    "top_factors": [
+      {
+        "feature": "previous_hospital_days",
+        "shap_value": -0.09030000120401382,
+        "direction": "decreases_risk"
+      },
+      {
+        "feature": "age_num",
+        "shap_value": 0.05999999865889549,
+        "direction": "increases_risk"
+      },
+      {
+        "feature": "deposit_per_day",
+        "shap_value": 0.05169999971985817,
+        "direction": "increases_risk"
+      },
+      {
+        "feature": "severity_num",
+        "shap_value": 0.04089999943971634,
+        "direction": "increases_risk"
+      },
+      {
+        "feature": "Type of Admission_Trauma",
+        "shap_value": 0.03310000151395798,
+        "direction": "increases_risk"
+      }
+    ]
+  },
+  {
+    "case_id": 89036,
+    "error_type": "False Positive",
+    "actual_outcome": 0,
+    "predicted_prob": 0.203,
+    "age": "11-20",
+    "severity": "Minor",
+    "department": "gynecology",
+    "previous_encounters": 2,
+    "length_of_stay_days": 21.8,
+    "top_factors": [
+      {
+        "feature": "severity_num",
+        "shap_value": -0.10339999943971634,
+        "direction": "decreases_risk"
+      },
+      {
+        "feature": "deposit_per_day",
+        "shap_value": 0.0471000000834465,
+        "direction": "increases_risk"
+      },
+      {
+        "feature": "Admission_Deposit",
+        "shap_value": 0.03779999911785126,
+        "direction": "increases_risk"
+      },
+      {
+        "feature": "Type of Admission_Urgent",
+        "shap_value": 0.032600000500679016,
+        "direction": "increases_risk"
+      },
+      {
+        "feature": "length_of_stay_days",
+        "shap_value": 0.025800000876188278,
+        "direction": "increases_risk"
+      }
+    ]
+  },
+  {
+    "case_id": 178167,
+    "error_type": "False Positive",
+    "actual_outcome": 0,
+    "predicted_prob": 0.2102,
+    "age": "41-50",
+    "severity": "Moderate",
+    "department": "radiotherapy",
+    "previous_encounters": 1,
+    "length_of_stay_days": 14.9,
+    "top_factors": [
+      {
+        "feature": "severity_num",
+        "shap_value": 0.040300000458955765,
+        "direction": "increases_risk"
+      },
+      {
+        "feature": "days_since_previous_discharge",
+        "shap_value": -0.03720000013709068,
+        "direction": "decreases_risk"
+      },
+      {
+        "feature": "Admission_Deposit",
+        "shap_value": 0.03400000184774399,
+        "direction": "increases_risk"
+      },
+      {
+        "feature": "previous_max_los",
+        "shap_value": 0.03150000050663948,
+        "direction": "increases_risk"
+      },
+      {
+        "feature": "Type of Admission_Urgent",
+        "shap_value": 0.028300000354647636,
+        "direction": "increases_risk"
+      }
+    ]
+  },
+  {
+    "case_id": 107285,
+    "error_type": "False Positive",
+    "actual_outcome": 0,
+    "predicted_prob": 0.2058,
+    "age": "31-40",
+    "severity": "Extreme",
+    "department": "gynecology",
+    "previous_encounters": 1,
+    "length_of_stay_days": 81.8,
+    "top_factors": [
+      {
+        "feature": "severity_num",
+        "shap_value": 0.1378999948501587,
+        "direction": "increases_risk"
+      },
+      {
+        "feature": "Admission_Deposit",
+        "shap_value": -0.06689999997615814,
+        "direction": "decreases_risk"
+      },
+      {
+        "feature": "previous_max_los",
+        "shap_value": -0.04179999977350235,
+        "direction": "decreases_risk"
+      },
+      {
+        "feature": "Visitors with Patient",
+        "shap_value": 0.03280000016093254,
+        "direction": "increases_risk"
+      },
+      {
+        "feature": "previous_avg_los",
+        "shap_value": 0.03240000084042549,
+        "direction": "increases_risk"
+      }
+    ]
+  },
+  {
+    "case_id": 268649,
+    "error_type": "False Positive",
+    "actual_outcome": 0,
+    "predicted_prob": 0.1975,
+    "age": "41-50",
+    "severity": "Moderate",
+    "department": "gynecology",
+    "previous_encounters": 2,
+    "length_of_stay_days": 19.3,
+    "top_factors": [
+      {
+        "feature": "Admission_Deposit",
+        "shap_value": 0.062300000339746475,
+        "direction": "increases_risk"
+      },
+      {
+        "feature": "length_of_stay_days",
+        "shap_value": 0.04100000113248825,
+        "direction": "increases_risk"
+      },
+      {
+        "feature": "Ward_Facility_Code_A",
+        "shap_value": -0.03660000115633011,
+        "direction": "decreases_risk"
+      },
+      {
+        "feature": "days_since_previous_discharge",
+        "shap_value": -0.031099999323487282,
+        "direction": "decreases_risk"
+      },
+      {
+        "feature": "Type of Admission_Urgent",
+        "shap_value": 0.030400000512599945,
+        "direction": "increases_risk"
+      }
+    ]
+  },
+  {
+    "case_id": 253156,
+    "error_type": "False Positive",
+    "actual_outcome": 0,
+    "predicted_prob": 0.2527,
+    "age": "21-30",
+    "severity": "Minor",
+    "department": "gynecology",
+    "previous_encounters": 2,
+    "length_of_stay_days": -0.1,
+    "top_factors": [
+      {
+        "feature": "deposit_per_day",
+        "shap_value": 0.2021999955177307,
+        "direction": "increases_risk"
+      },
+      {
+        "feature": "severity_num",
+        "shap_value": -0.1225999966263771,
+        "direction": "decreases_risk"
+      },
+      {
+        "feature": "los_deviation",
+        "shap_value": 0.11150000244379044,
+        "direction": "increases_risk"
+      },
+      {
+        "feature": "visitors_per_day",
+        "shap_value": -0.07769999653100967,
+        "direction": "decreases_risk"
+      },
+      {
+        "feature": "Admission_Deposit",
+        "shap_value": 0.042899999767541885,
+        "direction": "increases_risk"
+      }
+    ]
+  },
+  {
+    "case_id": 169844,
+    "error_type": "False Positive",
+    "actual_outcome": 0,
+    "predicted_prob": 0.1965,
+    "age": "51-60",
+    "severity": "Moderate",
+    "department": "gynecology",
+    "previous_encounters": 1,
+    "length_of_stay_days": 38.1,
+    "top_factors": [
+      {
+        "feature": "severity_num",
+        "shap_value": 0.055799998342990875,
+        "direction": "increases_risk"
+      },
+      {
+        "feature": "days_since_previous_discharge",
+        "shap_value": -0.05119999870657921,
+        "direction": "decreases_risk"
+      },
+      {
+        "feature": "Admission_Deposit",
+        "shap_value": 0.04639999940991402,
+        "direction": "increases_risk"
+      },
+      {
+        "feature": "previous_max_los",
+        "shap_value": -0.041600000113248825,
+        "direction": "decreases_risk"
+      },
+      {
+        "feature": "Type of Admission_Urgent",
+        "shap_value": 0.033399999141693115,
+        "direction": "increases_risk"
+      }
+    ]
+  },
+  {
+    "case_id": 120773,
+    "error_type": "False Positive",
+    "actual_outcome": 0,
+    "predicted_prob": 0.2034,
+    "age": "41-50",
+    "severity": "Moderate",
+    "department": "gynecology",
+    "previous_encounters": 2,
+    "length_of_stay_days": 43.7,
+    "top_factors": [
+      {
+        "feature": "severity_num",
+        "shap_value": 0.0706000030040741,
+        "direction": "increases_risk"
+      },
+      {
+        "feature": "previous_emergency_count",
+        "shap_value": 0.04490000009536743,
+        "direction": "increases_risk"
+      },
+      {
+        "feature": "Admission_Deposit",
+        "shap_value": 0.03579999879002571,
+        "direction": "increases_risk"
+      },
+      {
+        "feature": "Type of Admission_Urgent",
+        "shap_value": 0.03200000151991844,
+        "direction": "increases_risk"
+      },
+      {
+        "feature": "deposit_per_day",
+        "shap_value": -0.02879999950528145,
+        "direction": "decreases_risk"
+      }
+    ]
+  },
+  {
+    "case_id": 188048,
+    "error_type": "False Positive",
+    "actual_outcome": 0,
+    "predicted_prob": 0.1966,
+    "age": "31-40",
+    "severity": "Moderate",
+    "department": "gynecology",
+    "previous_encounters": 4,
+    "length_of_stay_days": 3.0,
+    "top_factors": [
+      {
+        "feature": "deposit_per_day",
+        "shap_value": 0.10429999977350235,
+        "direction": "increases_risk"
+      },
+      {
+        "feature": "length_of_stay_days",
+        "shap_value": -0.08320000022649765,
+        "direction": "decreases_risk"
+      },
+      {
+        "feature": "encounter_number",
+        "shap_value": -0.03669999912381172,
+        "direction": "decreases_risk"
+      },
+      {
+        "feature": "severity_num",
+        "shap_value": 0.03449999913573265,
+        "direction": "increases_risk"
+      },
+      {
+        "feature": "Type of Admission_Urgent",
+        "shap_value": 0.0284000001847744,
+        "direction": "increases_risk"
+      }
+    ]
+  },
+  {
+    "case_id": 84138,
+    "error_type": "False Negative",
+    "actual_outcome": 1,
+    "predicted_prob": 0.1874,
+    "age": "51-60",
+    "severity": "Extreme",
+    "department": "gynecology",
+    "previous_encounters": 2,
+    "length_of_stay_days": 27.7,
+    "top_factors": [
+      {
+        "feature": "severity_num",
+        "shap_value": 0.17419999837875366,
+        "direction": "increases_risk"
+      },
+      {
+        "feature": "Bed Grade",
+        "shap_value": -0.08320000022649765,
+        "direction": "decreases_risk"
+      },
+      {
+        "feature": "Admission_Deposit",
+        "shap_value": 0.05999999865889549,
+        "direction": "increases_risk"
+      },
+      {
+        "feature": "previous_hospital_days",
+        "shap_value": -0.04540000110864639,
+        "direction": "decreases_risk"
+      },
+      {
+        "feature": "previous_avg_los",
+        "shap_value": 0.04410000145435333,
+        "direction": "increases_risk"
+      }
+    ]
+  },
+  {
+    "case_id": 230873,
+    "error_type": "False Negative",
+    "actual_outcome": 1,
+    "predicted_prob": 0.193,
+    "age": "21-30",
+    "severity": "Minor",
+    "department": "gynecology",
+    "previous_encounters": 1,
+    "length_of_stay_days": 27.0,
+    "top_factors": [
+      {
+        "feature": "severity_num",
+        "shap_value": -0.16060000658035278,
+        "direction": "decreases_risk"
+      },
+      {
+        "feature": "Hospital_type_code_e",
+        "shap_value": 0.03480000048875809,
+        "direction": "increases_risk"
+      },
+      {
+        "feature": "Type of Admission_Urgent",
+        "shap_value": 0.03060000017285347,
+        "direction": "increases_risk"
+      },
+      {
+        "feature": "Bed Grade",
+        "shap_value": 0.024900000542402267,
+        "direction": "increases_risk"
+      },
+      {
+        "feature": "visitors_per_day",
+        "shap_value": 0.02290000021457672,
+        "direction": "increases_risk"
+      }
+    ]
+  },
+  {
+    "case_id": 198937,
+    "error_type": "False Negative",
+    "actual_outcome": 1,
+    "predicted_prob": 0.1549,
+    "age": "11-20",
+    "severity": "Minor",
+    "department": "gynecology",
+    "previous_encounters": 2,
+    "length_of_stay_days": 50.9,
+    "top_factors": [
+      {
+        "feature": "severity_num",
+        "shap_value": -0.15929999947547913,
+        "direction": "decreases_risk"
+      },
+      {
+        "feature": "Admission_Deposit",
+        "shap_value": -0.0940999984741211,
+        "direction": "decreases_risk"
+      },
+      {
+        "feature": "Ward_Type_T",
+        "shap_value": 0.05299999937415123,
+        "direction": "increases_risk"
+      },
+      {
+        "feature": "Type of Admission_Urgent",
+        "shap_value": 0.034699998795986176,
+        "direction": "increases_risk"
+      },
+      {
+        "feature": "los_ratio",
+        "shap_value": -0.03310000151395798,
+        "direction": "decreases_risk"
+      }
+    ]
+  },
+  {
+    "case_id": 33179,
+    "error_type": "False Negative",
+    "actual_outcome": 1,
+    "predicted_prob": 0.1852,
+    "age": "11-20",
+    "severity": "Extreme",
+    "department": "gynecology",
+    "previous_encounters": 2,
+    "length_of_stay_days": 7.9,
+    "top_factors": [
+      {
+        "feature": "severity_num",
+        "shap_value": 0.08879999816417694,
+        "direction": "increases_risk"
+      },
+      {
+        "feature": "previous_hospital_days",
+        "shap_value": -0.06310000270605087,
+        "direction": "decreases_risk"
+      },
+      {
+        "feature": "length_of_stay_days",
+        "shap_value": -0.05700000002980232,
+        "direction": "decreases_risk"
+      },
+      {
+        "feature": "Admission_Deposit",
+        "shap_value": 0.030799999833106995,
+        "direction": "increases_risk"
+      },
+      {
+        "feature": "Type of Admission_Urgent",
+        "shap_value": 0.024299999698996544,
+        "direction": "increases_risk"
+      }
+    ]
+  },
+  {
+    "case_id": 58199,
+    "error_type": "False Negative",
+    "actual_outcome": 1,
+    "predicted_prob": 0.1549,
+    "age": "61-70",
+    "severity": "Minor",
+    "department": "anesthesia",
+    "previous_encounters": 3,
+    "length_of_stay_days": 7.3,
+    "top_factors": [
+      {
+        "feature": "severity_num",
+        "shap_value": -0.12489999830722809,
+        "direction": "decreases_risk"
+      },
+      {
+        "feature": "length_of_stay_days",
+        "shap_value": -0.05779999867081642,
+        "direction": "decreases_risk"
+      },
+      {
+        "feature": "deposit_per_day",
+        "shap_value": 0.05380000174045563,
+        "direction": "increases_risk"
+      },
+      {
+        "feature": "days_since_previous_discharge",
+        "shap_value": 0.030899999663233757,
+        "direction": "increases_risk"
+      },
+      {
+        "feature": "previous_365d_encounters",
+        "shap_value": -0.027499999850988388,
+        "direction": "decreases_risk"
+      }
+    ]
+  },
+  {
+    "case_id": 16909,
+    "error_type": "False Negative",
+    "actual_outcome": 1,
+    "predicted_prob": 0.1706,
+    "age": "71-80",
+    "severity": "Minor",
+    "department": "gynecology",
+    "previous_encounters": 5,
+    "length_of_stay_days": 12.7,
+    "top_factors": [
+      {
+        "feature": "severity_num",
+        "shap_value": -0.09350000321865082,
+        "direction": "decreases_risk"
+      },
+      {
+        "feature": "Admission_Deposit",
+        "shap_value": 0.07039999961853027,
+        "direction": "increases_risk"
+      },
+      {
+        "feature": "days_since_previous_discharge",
+        "shap_value": -0.06199999898672104,
+        "direction": "decreases_risk"
+      },
+      {
+        "feature": "Type of Admission_Urgent",
+        "shap_value": 0.0348999984562397,
+        "direction": "increases_risk"
+      },
+      {
+        "feature": "los_deviation",
+        "shap_value": -0.03280000016093254,
+        "direction": "decreases_risk"
+      }
+    ]
+  },
+  {
+    "case_id": 211712,
+    "error_type": "False Negative",
+    "actual_outcome": 1,
+    "predicted_prob": 0.1678,
+    "age": "81-90",
+    "severity": "Extreme",
+    "department": "anesthesia",
+    "previous_encounters": 4,
+    "length_of_stay_days": 18.2,
+    "top_factors": [
+      {
+        "feature": "previous_hospital_days",
+        "shap_value": -0.12039999663829803,
+        "direction": "decreases_risk"
+      },
+      {
+        "feature": "severity_num",
+        "shap_value": 0.08340000361204147,
+        "direction": "increases_risk"
+      },
+      {
+        "feature": "Type of Admission_Urgent",
+        "shap_value": 0.03519999980926514,
+        "direction": "increases_risk"
+      },
+      {
+        "feature": "previous_max_los",
+        "shap_value": -0.031199999153614044,
+        "direction": "decreases_risk"
+      },
+      {
+        "feature": "deposit_per_day",
+        "shap_value": -0.026000000536441803,
+        "direction": "decreases_risk"
+      }
+    ]
+  },
+  {
+    "case_id": 120740,
+    "error_type": "False Negative",
+    "actual_outcome": 1,
+    "predicted_prob": 0.152,
+    "age": "41-50",
+    "severity": "Minor",
+    "department": "gynecology",
+    "previous_encounters": 1,
+    "length_of_stay_days": 23.1,
+    "top_factors": [
+      {
+        "feature": "severity_num",
+        "shap_value": -0.1655000001192093,
+        "direction": "decreases_risk"
+      },
+      {
+        "feature": "emergency_ratio",
+        "shap_value": -0.08139999955892563,
+        "direction": "decreases_risk"
+      },
+      {
+        "feature": "Admission_Deposit",
+        "shap_value": 0.0406000018119812,
+        "direction": "increases_risk"
+      },
+      {
+        "feature": "los_deviation",
+        "shap_value": 0.03999999910593033,
+        "direction": "increases_risk"
+      },
+      {
+        "feature": "days_since_previous_discharge",
+        "shap_value": -0.03480000048875809,
+        "direction": "decreases_risk"
+      }
+    ]
+  },
+  {
+    "case_id": 121933,
+    "error_type": "False Negative",
+    "actual_outcome": 1,
+    "predicted_prob": 0.1748,
+    "age": "71-80",
+    "severity": "Extreme",
+    "department": "gynecology",
+    "previous_encounters": 4,
+    "length_of_stay_days": 36.3,
+    "top_factors": [
+      {
+        "feature": "severity_num",
+        "shap_value": 0.13670000433921814,
+        "direction": "increases_risk"
+      },
+      {
+        "feature": "previous_hospital_days",
+        "shap_value": -0.11140000075101852,
+        "direction": "decreases_risk"
+      },
+      {
+        "feature": "Bed Grade",
+        "shap_value": -0.06960000097751617,
+        "direction": "decreases_risk"
+      },
+      {
+        "feature": "Admission_Deposit",
+        "shap_value": 0.04830000177025795,
+        "direction": "increases_risk"
+      },
+      {
+        "feature": "Visitors with Patient",
+        "shap_value": 0.03819999843835831,
+        "direction": "increases_risk"
+      }
+    ]
+  },
+  {
+    "case_id": 94726,
+    "error_type": "False Negative",
+    "actual_outcome": 1,
+    "predicted_prob": 0.1496,
+    "age": "71-80",
+    "severity": "Extreme",
+    "department": "gynecology",
+    "previous_encounters": 5,
+    "length_of_stay_days": 13.3,
+    "top_factors": [
+      {
+        "feature": "previous_urgent_count",
+        "shap_value": -0.17829999327659607,
+        "direction": "decreases_risk"
+      },
+      {
+        "feature": "severity_num",
+        "shap_value": 0.13259999454021454,
+        "direction": "increases_risk"
+      },
+      {
+        "feature": "Type of Admission_Urgent",
+        "shap_value": -0.10080000013113022,
+        "direction": "decreases_risk"
+      },
+      {
+        "feature": "previous_365d_encounters",
+        "shap_value": 0.05889999866485596,
+        "direction": "increases_risk"
+      },
+      {
+        "feature": "previous_hospital_days",
+        "shap_value": -0.04540000110864639,
+        "direction": "decreases_risk"
+      }
+    ]
+  },
+  {
+    "case_id": 118386,
+    "error_type": "False Negative",
+    "actual_outcome": 1,
+    "predicted_prob": 0.1926,
+    "age": "61-70",
+    "severity": "Moderate",
+    "department": "gynecology",
+    "previous_encounters": 4,
+    "length_of_stay_days": 59.1,
+    "top_factors": [
+      {
+        "feature": "Admission_Deposit",
+        "shap_value": 0.04859999939799309,
+        "direction": "increases_risk"
+      },
+      {
+        "feature": "previous_hospital_days",
+        "shap_value": -0.03929999843239784,
+        "direction": "decreases_risk"
+      },
+      {
+        "feature": "severity_num",
+        "shap_value": 0.03350000083446503,
+        "direction": "increases_risk"
+      },
+      {
+        "feature": "length_of_stay_days",
+        "shap_value": -0.03009999915957451,
+        "direction": "decreases_risk"
+      },
+      {
+        "feature": "deposit_per_day",
+        "shap_value": 0.028699999675154686,
+        "direction": "increases_risk"
+      }
+    ]
+  },
+  {
+    "case_id": 14592,
+    "error_type": "False Negative",
+    "actual_outcome": 1,
+    "predicted_prob": 0.1608,
+    "age": "61-70",
+    "severity": "Extreme",
+    "department": "gynecology",
+    "previous_encounters": 1,
+    "length_of_stay_days": 57.8,
+    "top_factors": [
+      {
+        "feature": "severity_num",
+        "shap_value": 0.1477999985218048,
+        "direction": "increases_risk"
+      },
+      {
+        "feature": "days_since_previous_discharge",
+        "shap_value": -0.12549999356269836,
+        "direction": "decreases_risk"
+      },
+      {
+        "feature": "Admission_Deposit",
+        "shap_value": -0.09200000017881393,
+        "direction": "decreases_risk"
+      },
+      {
+        "feature": "Bed Grade",
+        "shap_value": -0.08330000191926956,
+        "direction": "decreases_risk"
+      },
+      {
+        "feature": "Ward_Type_Q",
+        "shap_value": 0.05779999867081642,
+        "direction": "increases_risk"
+      }
+    ]
+  },
+  {
+    "case_id": 293830,
+    "error_type": "False Negative",
+    "actual_outcome": 1,
+    "predicted_prob": 0.1396,
+    "age": "51-60",
+    "severity": "Extreme",
+    "department": "gynecology",
+    "previous_encounters": 2,
+    "length_of_stay_days": 13.8,
+    "top_factors": [
+      {
+        "feature": "previous_urgent_count",
+        "shap_value": -0.22089999914169312,
+        "direction": "decreases_risk"
+      },
+      {
+        "feature": "severity_num",
+        "shap_value": 0.1446000039577484,
+        "direction": "increases_risk"
+      },
+      {
+        "feature": "Type of Admission_Urgent",
+        "shap_value": -0.1242000013589859,
+        "direction": "decreases_risk"
+      },
+      {
+        "feature": "los_deviation",
+        "shap_value": 0.07320000231266022,
+        "direction": "increases_risk"
+      },
+      {
+        "feature": "Bed Grade",
+        "shap_value": -0.06419999897480011,
+        "direction": "decreases_risk"
+      }
+    ]
+  },
+  {
+    "case_id": 260146,
+    "error_type": "False Negative",
+    "actual_outcome": 1,
+    "predicted_prob": 0.1286,
+    "age": "31-40",
+    "severity": "Minor",
+    "department": "gynecology",
+    "previous_encounters": 2,
+    "length_of_stay_days": 24.9,
+    "top_factors": [
+      {
+        "feature": "Type of Admission_Urgent",
+        "shap_value": -0.21819999814033508,
+        "direction": "decreases_risk"
+      },
+      {
+        "feature": "severity_num",
+        "shap_value": -0.1607999950647354,
+        "direction": "decreases_risk"
+      },
+      {
+        "feature": "emergency_ratio",
+        "shap_value": -0.02850000001490116,
+        "direction": "decreases_risk"
+      },
+      {
+        "feature": "Type of Admission_Trauma",
+        "shap_value": -0.025599999353289604,
+        "direction": "decreases_risk"
+      },
+      {
+        "feature": "visitors_per_day",
+        "shap_value": 0.02449999935925007,
+        "direction": "increases_risk"
+      }
+    ]
+  },
+  {
+    "case_id": 31370,
+    "error_type": "False Negative",
+    "actual_outcome": 1,
+    "predicted_prob": 0.1641,
+    "age": "21-30",
+    "severity": "Moderate",
+    "department": "gynecology",
+    "previous_encounters": 8,
+    "length_of_stay_days": 4.8,
+    "top_factors": [
+      {
+        "feature": "deposit_per_day",
+        "shap_value": 0.18019999563694,
+        "direction": "increases_risk"
+      },
+      {
+        "feature": "Type of Admission_Urgent",
+        "shap_value": -0.15809999406337738,
+        "direction": "decreases_risk"
+      },
+      {
+        "feature": "previous_hospital_days",
+        "shap_value": 0.1404999941587448,
+        "direction": "increases_risk"
+      },
+      {
+        "feature": "previous_365d_encounters",
+        "shap_value": -0.13660000264644623,
+        "direction": "decreases_risk"
+      },
+      {
+        "feature": "length_of_stay_days",
+        "shap_value": -0.07100000232458115,
+        "direction": "decreases_risk"
+      }
+    ]
+  }
+]

@@ -1,0 +1,97 @@
+{
+  "age": [
+    {
+      "subgroup": "0-10",
+      "count": 734,
+      "readmission_rate": 0.1335,
+      "auc_roc": 0.5538,
+      "recall": 0.1122
+    },
+    {
+      "subgroup": "11-20",
+      "count": 2146,
+      "readmission_rate": 0.1608,
+      "auc_roc": 0.5483,
+      "recall": 0.1478
+    },
+    {
+      "subgroup": "21-30",
+      "count": 5724,
+      "readmission_rate": 0.1448,
+      "auc_roc": 0.5516,
+      "recall": 0.1568
+    },
+    {
+      "subgroup": "31-40",
+      "count": 9419,
+      "readmission_rate": 0.1508,
+      "auc_roc": 0.5534,
+      "recall": 0.1387
+    },
+    {
+      "subgroup": "41-50",
+      "count": 8875,
+      "readmission_rate": 0.1469,
+      "auc_roc": 0.5582,
+      "recall": 0.138
+    },
+    {
+      "subgroup": "51-60",
+      "count": 7257,
+      "readmission_rate": 0.1519,
+      "auc_roc": 0.5526,
+      "recall": 0.1198
+    },
+    {
+      "subgroup": "61-70",
+      "count": 5663,
+      "readmission_rate": 0.1556,
+      "auc_roc": 0.5216,
+      "recall": 0.1203
+    },
+    {
+      "subgroup": "71-80",
+      "count": 6283,
+      "readmission_rate": 0.153,
+      "auc_roc": 0.546,
+      "recall": 0.1727
+    },
+    {
+      "subgroup": "81-90",
+      "count": 1432,
+      "readmission_rate": 0.1592,
+      "auc_roc": 0.5617,
+      "recall": 0.1886
+    },
+    {
+      "subgroup": "91-100",
+      "count": 233,
+      "readmission_rate": 0.2146,
+      "auc_roc": 0.5226,
+      "recall": 0.22
+    }
+  ],
+  "severity": [
+    {
+      "subgroup": "Extreme",
+      "count": 12707,
+      "readmission_rate": 0.1575,
+      "auc_roc": 0.5407,
+      "recall": 0.2379
+    },
+    {
+      "subgroup": "Minor",
+      "count": 7331,
+      "readmission_rate": 0.1322,
+      "auc_roc": 0.5536,
+      "recall": 0.0464
+    },
+    {
+      "subgroup": "Moderate",
+      "count": 27728,
+      "readmission_rate": 0.1532,
+      "auc_roc": 0.5486,
+      "recall": 0.1191
+    }
+  ]
+}

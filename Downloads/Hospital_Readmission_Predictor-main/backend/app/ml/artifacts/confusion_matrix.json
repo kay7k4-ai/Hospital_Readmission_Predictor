@@ -1,0 +1,7 @@
+{
+  "true_negatives": 35850,
+  "false_positives": 4698,
+  "false_negatives": 6191,
+  "true_positives": 1027,
+  "threshold": 0.195
+}

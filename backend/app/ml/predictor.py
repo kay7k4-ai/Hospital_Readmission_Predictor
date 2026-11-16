@@ -10,6 +10,8 @@ Fulfills:
 """
 
 import json
+import sys
+import types
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Union
 import joblib
@@ -17,6 +19,21 @@ import numpy as np
 import pandas as pd
 
 ARTIFACTS_DIR = Path(__file__).resolve().parent / "artifacts"
+
+
+def _alias_legacy_modules() -> None:
+    """
+    The saved .joblib files were pickled when the project was imported as
+    `backend.app.ml.pipeline`. Register that name as an alias so the API loads the
+    model whether it is started from the repo root or from inside backend/.
+    """
+    try:
+        from . import pipeline as _pipeline
+    except ImportError:  # pragma: no cover
+        from app.ml import pipeline as _pipeline
+    for name in ("backend", "backend.app", "backend.app.ml"):
+        sys.modules.setdefault(name, types.ModuleType(name))
+    sys.modules.setdefault("backend.app.ml.pipeline", _pipeline)
 
 FEATURE_DISPLAY_NAMES = {
     "previous_emergency_count": "Prior Emergency Visits",
@@ -49,6 +66,7 @@ class ReadmissionPredictor:
         self._load_artifacts()
 
     def _load_artifacts(self):
+        _alias_legacy_modules()
         try:
             self.model = joblib.load(self.artifacts_dir / "best_model.joblib")
             self.preprocessor = joblib.load(self.artifacts_dir / "preprocessor.joblib")

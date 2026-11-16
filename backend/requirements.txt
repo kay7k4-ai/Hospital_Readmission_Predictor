@@ -5,3 +5,7 @@ scikit-learn
 pandas
 shap
 xgboost
+python-multipart
+jinja2
+
+
